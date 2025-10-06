@@ -1,4 +1,11 @@
 @import "tailwindcss";
+/* Force Tailwind to output RGB colors instead of LAB/OKLCH */
+@layer base {
+  :root {
+    --tw-color-scheme: rgb;
+  }
+}
+
 
 :root {
   --background: #ffffff;

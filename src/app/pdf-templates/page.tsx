@@ -3,16 +3,16 @@ import Link from "next/link";
 import React from "react";
 
 const items = [
-  { title: "Resume", href: "#", url: "/resume.png" },
-  { title: "Invoice Template", href: "#", url: "/invoice.png" },
-  { title: "Receipt Template", href: "#", url: "/recive.png" },
-  { title: "Certificate of Achievement", href: "#", url: "/resume.png" },
-  { title: "Personal ID Card Template", href: "#", url: "/card.jpeg" },
-  { title: "Daily Task Planner", href: "#", url: "/dailytask.jpeg" },
-  { title: "Quotation Template", href: "#", url: "/quotation.jpeg" },
-  { title: "Meeting Notes Template", href: "#", url: "/meetingnotes.png" },
-  { title: "Rental Agreement Template", href: "#", url: "/rentalagreement.png" },
-  { title: "Event Invitation Template", href: "#", url: "/eventinvitation.jpeg" },
+  { title: "Resume", href: "/resume", url: "/resume.png" },
+  { title: "Invoice Template", href: "/invoice", url: "/invoice.png" },
+  { title: "Receipt Template", href: "/receipt", url: "/recive.png" },
+  { title: "Certificate of Achievement", href: "/achievement", url: "/resume.png" },
+  { title: "Personal ID Card Template", href: "/card", url: "/card.jpeg" },
+  { title: "Daily Task Planner", href: "/dailytask", url: "/dailytask.jpeg" },
+  { title: "Quotation Template", href: "/quotation", url: "/quotation.jpeg" },
+  { title: "Meeting Notes Template", href: "meetingnotes", url: "/meetingnotes.png" },
+  { title: "Rental Agreement Template", href: "/rental", url: "/rentalagreement.png" },
+  { title: "Event Invitation Template", href: "event-invitation", url: "/eventinvitation.jpeg" },
 ];
 
 const Page = () => {
